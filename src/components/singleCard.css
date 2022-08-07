@@ -1,0 +1,63 @@
+.back-button{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 80px;
+  padding: 10px 39px 10px 62px;
+  position: relative;
+}
+.back-button::after{
+    content: "";
+    display: block;
+    width: 13px;
+    height:13px; 
+    background-image: url("../images/Shape.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.image{
+  width: 560px;
+  height: 400px;
+  margin-right: 100px;
+}
+
+.box{
+  width: 207px;
+}
+
+.subbox{
+  width: 249px;
+}
+
+.text{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #111517;
+}
+
+.subtext{
+  opacity: 0.6;
+}
+
+
+.border-button{
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+  border-radius: 2px;
+  margin-left: 10px;
+  padding: 5px 19px;
+}
